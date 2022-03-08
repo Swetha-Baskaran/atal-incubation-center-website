@@ -4,9 +4,11 @@ import { AiFillCaretDown } from "react-icons/ai"
 
 import logo from "../../../assets/logo.jpg" 
 
+import "./style.css"
+
 const Navbar = () => {
   return (
-    <div className="opacity-75 h-24 absolute z-10 w-full text-white flex justify-between py-8 text-xl">
+    <div className="nav opacity-75 h-24 absolute z-10 w-full text-white flex justify-between py-8 text-xl">
           <div className="logo mx-10 ">
             <img src={logo} alt="" style={{"height" : "3rem"}}/>
            </div>

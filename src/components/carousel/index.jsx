@@ -6,6 +6,7 @@ import "./style.css"
 
 export default function CarouselComp(){
     return (
+        <>
         <Carousel autoPlay  showArrows={false} showIndicators={false} showThumbs={false} showStatus={false} stopOnHover={false} label={false} infiniteLoop={true} renderIndicator={false}>
                 <div className="img-hold">
                     <div className="img-text">
@@ -41,5 +42,6 @@ export default function CarouselComp(){
                     {/* <p className="legend">Legend 3</p> */}
                 </div>
             </Carousel>
+        </>
     )
 } 
