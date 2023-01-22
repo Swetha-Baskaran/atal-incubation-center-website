@@ -4,6 +4,7 @@ import styles from './page.module.css'
 
 const inter = Inter({ subsets: ['latin'] })
 
+// landing page
 export default function Home() {
   return (
     <div>

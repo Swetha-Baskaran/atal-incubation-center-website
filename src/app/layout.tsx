@@ -1,9 +1,9 @@
-import Chatbot from './Chatbot'
-import ConnectWithUs from './ConnectWithUs'
-import Footer from './Footer'
+import Chatbot from '../Components/Chatbot'
+import ConnectWithUs from '../Components/ConnectWithUs'
+import Footer from '../Components/Footer'
 import './globals.css'
-import Header from './Header'
-import QuickLink from './QuickLink'
+import Header from '../Components/Header'
+import QuickLink from '../Components/QuickLink'
 
 export default function RootLayout({
   children,
@@ -22,7 +22,6 @@ export default function RootLayout({
         <Header/>
         <ConnectWithUs/>  
         <Chatbot/>
-        
         {children}
         <Footer/>
         </body>
