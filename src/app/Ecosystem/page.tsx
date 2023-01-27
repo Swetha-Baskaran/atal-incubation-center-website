@@ -1,9 +1,9 @@
 import React from 'react'
 
-const page = () => {
+const EcoSystem = () => {
   return (
-    <div>page</div>
+    <div>EcoSystem</div>
   )
 }
 
-export default page
+export default EcoSystem
