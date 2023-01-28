@@ -2,9 +2,9 @@ import React from "react";
 
 const About = () => {
 	return (
-		<div className='md:flex justify-evenly m-auto m-9 p-9'>
-			<div className='m-6 py-9'>
-				<h1 className='font-medium leading-tight text-4xl mt-0 mb-2'>
+		<div className='md:flex justify-evenly m-auto m-12 p-9'>
+			<div className='m-9 py-9'>
+				<h1 className='font-medium leading-tight text-5xl mt-0 mb-2'>
 					About Maker Village
 				</h1>
 				<p className="my-6 font-3xl">
