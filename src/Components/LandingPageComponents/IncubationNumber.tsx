@@ -1,11 +1,11 @@
 "use client";
-import React, {useEffect, useState, useRef} from "react";
+import {useEffect, useState, useRef} from "react";
 import numberData from "@/Constants/animCount";
 import classes from "./style.module.scss";
 import "./countBorderStyles.css"
 
-const Number = ({start = 0, end, timer = 50, text, border}) => {
-	const [state, setState] = useState(null);
+const Number = ({start = 0, end, timer = 50, text, border}: any) => {
+	const [state, setState] = useState(0);
 	const ref = useRef(start);
 	const accumulator = end / 200;
 	const updateCounterState = () => {
@@ -23,8 +23,7 @@ const Number = ({start = 0, end, timer = 50, text, border}) => {
 		if (isMounted) {
 			updateCounterState();
 		}
-
-		return () => (isMounted = false);
+		isMounted = false
 	}, [end, start]);
 
 	return (

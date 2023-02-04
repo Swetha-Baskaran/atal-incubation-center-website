@@ -5,19 +5,19 @@ export const navLinks = [
     },
     {
         name: "About",
-        links: [],
+        links: ["Facilities", "Programs"],
     },
     {
         name: "Programs",
-        links: [],
+        links: ["Incubation"],
     },
     {
         name: "Funding",
-        links: [],
+        links: ["SISFS"],
     },
     {
         name: "Ecosystem",
-        links: [],
+        links: ["Startups"],
     },
     {
         name: "CSR",
@@ -25,11 +25,11 @@ export const navLinks = [
     },
     {
         name: "Stackholder",
-        links: [],
+        links: ["Investments", "Academic", "Government", "Industry"],
     },
     {
         name: "Events",
-        links: [],
+        links: ["Gallery", "Upcoming events", "Careers"],
     },
     {
         name: "Projects",
@@ -37,10 +37,6 @@ export const navLinks = [
     },
     {
         name: "Tenders",
-        links: [],
-    },
-    {
-        name: "Get Involved",
         links: [],
     },
     {

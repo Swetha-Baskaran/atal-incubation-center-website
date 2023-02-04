@@ -5,7 +5,7 @@ const About = () => {
 		<div className='md:flex justify-evenly m-auto m-12 p-9'>
 			<div className='m-9 py-9'>
 				<h1 className='font-medium leading-tight text-5xl mt-0 mb-2'>
-					About Maker Village
+					About Aicpecf
 				</h1>
 				<p className="my-6 font-3xl">
 					Lorem ipsum dolor, sit amet consectetur adipisicing elit.
