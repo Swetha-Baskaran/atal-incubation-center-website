@@ -1,3 +1,4 @@
+"use client";
 import Chatbot from '../Components/Chatbot'
 import ConnectWithUs from '../Components/ConnectWithUs'
 import Footer from '../Components/Footer'
@@ -21,11 +22,9 @@ export default function RootLayout({
       <head />
       <body>
         <Navigation />
-        <QuickLink/>
-        {/* <Header/> */}
-        {/* <Drawer /> */}
         <ConnectWithUs/>  
         <Chatbot/>
+        <QuickLink/>
         {children}
         <Footer/>
         </body>
