@@ -5,7 +5,7 @@
 	background: #111f4d;
 	height: 100%;
 	position: relative;
-    color: white;
+	color: white;
 }
 
 .wave-container::before {
@@ -27,13 +27,13 @@
 	}
 }
 
-.wave-container-content {   
+.wave-container-content {
 	margin: auto;
 	max-width: 50%;
 }
 
 .h3 {
-    font-size: 3rem;
+	font-size: 3rem;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -49,7 +49,7 @@
 
 .items {
 	padding: 3rem 2rem;
-    text-align: center;
+	text-align: center;
 	font-size: 1rem;
 	width: 100%;
 }
@@ -60,7 +60,7 @@
 
 .p {
 	font-size: 1.3rem;
-    padding: 1rem 0;
+	padding: 1rem 0;
 }
 
 .light-blue {
@@ -94,5 +94,20 @@
 	}
 	.items {
 		padding: 10px;
+	}
+}
+
+// about part
+.aboutVideo {
+	margin: 0 auto 4rem auto;
+	width: 90vw;
+	height: 20rem;
+}
+
+@media screen and (max-width: 1024px) {
+	.aboutVideo {
+		margin: 0 auto 4rem auto;
+		width: 90vw;
+		height: 20rem;
 	}
 }

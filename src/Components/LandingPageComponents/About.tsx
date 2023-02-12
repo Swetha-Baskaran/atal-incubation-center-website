@@ -1,8 +1,9 @@
 import React from "react";
+import classes from "./style.module.scss"
 
 const About = () => {
 	return (
-		<div className='md:flex justify-evenly m-auto m-12 p-9'>
+		<div className='block lg:flex justify-evenly lg:m-12 lg:p-9'>
 			<div className='m-9 py-9'>
 				<h1 className='font-medium leading-tight text-5xl mt-0 mb-2'>
 					About Aicpecf
@@ -18,7 +19,7 @@ const About = () => {
 				</button>
 			</div>
 			<iframe
-				className='m-6 md:w-[80vw] aspect-video ...'
+				className={classes.aboutVideo}
 				src='https://www.youtube.com/...'
 			></iframe>
 		</div>

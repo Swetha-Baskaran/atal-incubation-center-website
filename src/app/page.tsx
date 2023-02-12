@@ -5,7 +5,6 @@ import Header from '@/Components/LandingPageComponents/Header'
 import About from '@/Components/LandingPageComponents/About'
 import FootPrints from '@/Components/LandingPageComponents/IncubationNumber'
 import Partners from '@/Components/LandingPageComponents/Partners'
-import FocusArea from '@/Components/LandingPageComponents/FocusArea'
 import Facilities from '@/Components/LandingPageComponents/Facilities'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -17,7 +16,6 @@ export default function Home() {
       <Header />
       <FootPrints />
       <About />
-      <FocusArea />
       <Partners />
     </div>
   )

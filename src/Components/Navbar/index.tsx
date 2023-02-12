@@ -8,7 +8,7 @@ const Navigation = () => {
 	const handleDrawer = () => setToggleDrawer(!toggleDrawer);
 	return (
 		<>
-			<nav className='bg-white border-gray-200 dark:border-gray-600 dark:bg-gray-900 fixed w-full top-0 left-0'>
+			<nav className='bg-white border-gray-200 dark:border-gray-600 dark:bg-gray-900 fixed w-full top-0 left-0' style={{zIndex:"1112"}}>
 				<div className='flex flex-wrap justify-between items-center px-6 py-4'>
 					<a href='https://flowbite.com' className='flex items-center'>
 						<img

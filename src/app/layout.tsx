@@ -21,10 +21,10 @@ export default function RootLayout({
       */}
       <head />
       <body>
-        {/* <Navigation /> */}
-        {/* <ConnectWithUs/>   */}
-        {/* <Chatbot/> */}
-        {/* <QuickLink/> */}
+        <Navigation />
+        <ConnectWithUs/>  
+        <Chatbot/>
+        <QuickLink/>
         {children}
         <Footer/>
         </body>
